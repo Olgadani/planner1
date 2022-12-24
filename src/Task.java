@@ -61,15 +61,5 @@ public abstract class Task {
 
     public abstract Repeat getRepeatType();
 
-    @Override
-    public String toString() {
-        return "Task{" +
-                "name='" + name + '\'' +
-                ", id=" + id +
-                ", description='" + description + '\'' +
-                ", date='" + date + '\'' +
-                ", time='" + time + '\'' +
-                ", typeOfTask='" + typeOfTask + '\'' +
-                '}';
-    }
+
 }
