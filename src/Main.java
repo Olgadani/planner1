@@ -17,7 +17,6 @@ public class Main {
         TASKLIST.addTask(new WeeklyTask("Test2", "test", LocalDateTime.now(), LocalTime.now(), TypeOfTask.WORK));
         TASKLIST.addTask(new MonthlyTask("Test3", "test", LocalDateTime.now(), LocalTime.now(), TypeOfTask.WORK));
         TASKLIST.addTask(new YearlyTask("Test4", "test", LocalDateTime.now(), LocalTime.now(), TypeOfTask.WORK));
-        TASKLIST.addTask(new YearlyTask("Test6", "test", LocalDateTime.now(), LocalTime.now(), TypeOfTask.WORK));
         printTaskForDate(scanner);
 
     }
